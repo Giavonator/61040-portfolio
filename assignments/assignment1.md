@@ -94,6 +94,18 @@ The biggest reason as to why this problem moved forward, was due to its authenti
   3.  Treasurer (Student apart of the house, that manage finances): Historical cost week over week for menus can be easily stored and provided simply for finances. Simplifying them to no longer need to keep track of and add up all the receipts.
 
 #### 3.1.3 Evidence/Comparables
+  1.  [Annual Food Waste](https://www.usda.gov/about-food/food-safety/food-loss-and-waste/food-waste-faqs): It is estimated that 30% of the food used in the USA is gone to waste due to lack of proper managment.
+  2.  [Humans Are Bad at Food Managment](https://www.sciencedirect.com/science/article/pii/S0195666323001307) Due to "psycho-social, socio-demographic and lifestyle factors" people generally aren't the best at tracking household food leftovers, and could use help food management systems.
+  3. [Careless Food Management](https://pmc.ncbi.nlm.nih.gov/articles/PMC9192139/): Small size communities, especially with younger members, generally have high rates of "careless planners and cooks". Meaning our household is exactly what would need this extra help.
+  4. [Saving Money by Reducing Food Waste](https://www.epa.gov/recycle/preventing-wasted-food-home): By reducing the amount of food we waste our house could use that money instead for buying new cookware or other important household needs.
+  5. [Opportunity Cost for Time Outweighs Food Management Benefits](https://www.sciencedirect.com/science/article/abs/pii/S0921800923002756): A study revealed that in developed countries the opportunity cost associated with time spent managing food didn't outweigh the benefits of wasting food. Essentially, our time could be spent doing better things than managing food.
+  6. [Carbon Emission by Food Waste](https://www.worldwildlife.org/stories/fight-climate-change-by-preventing-food-waste): Roughly 8% of emissions are due to food waste, which could be prevented by having a better household food management system.
+  7. [Comparable - Cheffling](https://chefling.com/): Uses a camera within fridge and AI to keep track of whats inside in real time. It is a monthly service which would cost significantly too much for our 5 fridges.
+  8. [Comparable - SuperCook](https://www.supercook.com/#/desktop): Very easy to use software that provides a variety of recipes for current ingredients in fridge, but doesn't keep track of pantry of fridge easily. Manual recipe adding is reported to be very difficult from users.
+  9. [Comparable - KitchenPal](https://www.supercook.com/#/desktop): A mobile solution that has both recipe suggestions and pantry trackers, but doesn't fulfill the weekly management planning that is necessary with our menus.
+  10. [Comparable - SamsungFood](https://samsungfood.com/): Provides great recurring meal plan options, but not as helpful with daily changing menus with drastic different ingredients.
+  
+
 
 #### 3.1.4 Potential Features
 ##### 3.1.4.1 Sigma Ingredients
@@ -122,6 +134,16 @@ Stakeholder roles change on an email by email bases regarding whether you would 
   3.  Never capable of subbing (GRAs, Food Stewards, Certain roles): Some house memebrs unfortunately get added to all sub requests, even though they aren't supposed to ever sub. This project would then prevent them from being annoyingly emailed ever again.
 
 #### 3.2.3 Evidence/Comparables
+  1.  [Total Number Spam Emails](https://www.emailtooltester.com/en/blog/spam-statistics/): 160 billion spam emails sent every day, we shouldn't be contributing to our own inbox spam!
+  2.  [Time Wasted with Emails](https://missiveapp.com/blog/time-spent-on-email): Office workers waste 8.8 hours a week reading/writing emails. We could get much more problem set time if we reduced the number of emails we send each other.
+  3.  [Group Conversations Bad Over Email](https://www.scotthyoung.com/blog/2008/04/01/dont-use-email-for-conversations/): Due to several inherent problems with emailing, when trying to communicate in a group it can be very slow and inefficient.
+  4.  [Effects of Poor Communication](https://www.yourthoughtpartner.com/blog/poor-communication-in-the-workplace): Overall a great deal of frustration is felt when communication for something isn't going well. This can be seen when bumping a sub email five times and no one accepts.
+  5. [Choosing Appropriate Communication Tool](https://www.linezero.com/blog/choose-the-right-communication-tool): Choosing the appropriate communication tool can greatly affect the success of that communication. In our situation we chose email in the past which fell short not because email itself, but rather it was just the wrong tool.
+  6. [Stress with Too Many Emails](https://www.eway-crm.com/blog/productivity/the-psychology-of-email-stress-and-how-to-overcome-it/): Mass quantities of emails cause stress and mental anxiety in most people, therefore, it is crucial to reduce the number of emails to what is necessary.
+  7. [Overcommunication Can Be Good](https://www.weforum.org/stories/2015/03/why-you-need-to-over-communicate/): Although too many emails can cause stress, over communication can reduce surprise and help everyone be on the same page.
+  8.  [Comparable - TCP](https://tcpsoftware.com/products/instasub/): Automated subbing system, but primarily for teachers. Doesn't have an hour by hour subbing mechanism.
+  9. [Comparable - Sling](https://getsling.com/): There are many shift scheduling apps just like Sling, but none really have the automated subbing that is needed and usually have an additional cost associted.
+  10. [Comparable - Shiftboard](https://www.shiftboard.com/): Like Sling is missing the automated rescheduling portion and has increadibly high costs associated as well.
 
 #### 3.2.4 Potential Features
 ##### 3.2.4.1 Sub Pls?
@@ -141,12 +163,21 @@ What happens if not a single person could sub for the entire three hours? Then m
 As someone who regularly attends practices, but doesn't get too much playing time, it sometimes can be frustrating when your attendance isn't being accounted for. On top of this, due to our sub par attendance tracking system, our practices/games consistently have an unreliable number of players. This combines to difficulty in planning practices/games and them being unreliable metrics for individual playing time.
 
 #### 3.3.2 Key Stakeholders
-
   1.  Captain (Essentially Coach/Player role): The impact of the problem is that the captain has very limited data with attendance and stats to determine who plays the next game.
   2.  Regular Player: The biggest problem as a player who is consistently there that doesn't get playing time is that as players we don't know what is being considered when deciding playing time. By bringing in hard numbers a general sense of transparence would be brought to the team.
   3.  Outside Viewer (Non team member): People outside the team have zero way of knowing who is attending or how they are doing.
 
 #### 3.3.3 Evidence/Comparables
+  1. [Organized Scheduling Boosts Performance](https://blog.callplaybook.com/blog/organized-schedules-boost-team-performance): By having a unified place to see which players will be attending practices can cultivate a better team culture and in turn improve athletic performance.
+  2. [Negative Effects of Stats in Sports](https://www.hottimeinoldtown.com/2011/2/9/1983199/proprietary-stat-tracking-bad-for-fans-teams-and-soccer): Historical data has shown that there are several downsides when starting to track stats in sports, the can decrease enjoyment from fans and players.
+  3. [Problem with Soccer Stats](https://sites.duke.edu/wcwp/2020/03/01/the-difficulty-of-statistically-analyzing-match-performance/): Soccer simply doesn't have that many easily collectable stats as the game is increadibly dynamic. Making it one of the worst sports for stat analysis.
+  4. [Time Needed for Good Stat Tracking](https://phillysoccerpage.net/2017/04/06/on-advanced-stats-in-soccer-part-one-navigating-the-soccer-data-desert/): It take a lot of time and effort to reach a point of soccer statistcal analysis that you get in depth results and insights.
+  5. [Importance of Practicing](https://elestoque.org/2018/04/11/sports/practice-perfect-analyzing-importance-daily-sports-practice-attendance/): By regularly attending practice your match performance will greatly improve. Tracking who is actually going to practice can help teams properly slect their starting 11 players.
+  6. [Importance of Stats in Athletics](https://statistics.community/article/The_use_of_statistics_in_sports_and_athletics.html): Performance can be subjective, but stats provide a real objective answer on how players are doing and their improvements over time.
+  7. [How to Use Stats Properly](https://us.humankinetics.com/blogs/excerpt/keeping-stats-and-knowing-how-to-use-them?srsltid=AfmBOoqUkgxPQaVHVhwMz82ZoDCRV2_t2ell9YbJg3D5IiJa_cq0t5rt): Even relatively small stats that are kept track, like percent attendance at practices, can inform coaches/captains in making the appropriate decissions on who gets to play. 
+  8. [Comparable - Google Sheets](https://www.google.com/search?q=google+sheets&rlz=1C5CHFA_enUS1088US1088&oq=google+sheets&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgcIAhAAGI8CMgYIAxBFGEAyBggEEEUYPDIGCAUQRRg8MgYIBhBFGDzSAQgxNDkwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8): Easy self marking attendance and what team currently uses, doesn't inherently provide historical data and must be manually updated.
+  9. [Comparable - ShotTracker](https://shottracker.com/): AI tools used to keep thorough track of stats for games in real time, but costs way too much money for what we'd need it.
+  10. [Comparable - GameChanger](https://gc.com/): All inclusive app featuring game livestreaming, attendance, stats, but ultimately it has significantly too many options that make it very costly.
 
 #### 3.3.4 Potential Features
 ##### 3.3.4.1 Team History
