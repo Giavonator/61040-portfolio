@@ -1,33 +1,35 @@
 # Assignment 1
+
 ## 1. Excercise 1
+
  1. **Invariants**. *What are two invariants of the state?*
- a)  Count for an Item within a Request must be nonnegative.
- b)  All Purchases must be associated with a Request.
- c)  In my opinion the second invariant is more important as the whole point of the GiftRegistration concept is to buy gifts that the owner User wants. If there are purchases that don't fall under Requests then those are gifts the owner didn't want. The purchase action is most affected by it as it must keep track that Purchases are buying for pre registered Items, and it does this by the *"requires Registry exists..."* clause.
-.
+    1. Count for an Item within a Request must be nonnegative.
+    2. All Purchases must be associated with a Request.
+    3. In my opinion the second invariant is more important as the whole point of the GiftRegistration concept is to buy gifts that the owner User wants. If there are purchases that don't fall under Requests then those are gifts the owner didn't want. The purchase action is most affected by it as it must keep track that Purchases are buying for pre registered Items, and it does this by the *"requires Registry exists..."* clause.
+
  2. **Fixing an action**. *Can you identify an action that breaks this important invariant?*
-  a) removeItem currently could break the invariant as it will *"remove the request from the Registry"*, irregardless if a Purchase has already been made for that item.
-  b) This problem could be fixed by adding to the removeItem action's requirement to verify that the item does not already have associated Purchases for it.
-.
+  2.1 removeItem currently could break the invariant as it will *"remove the request from the Registry"*, irregardless if a Purchase has already been made for that item.
+  2.2 This problem could be fixed by adding to the removeItem action's requirement to verify that the item does not already have associated Purchases for it.
+
  3. **Inferring behavior**. *By reading the specs of the concept actions, should a Registry be allowed to open and close repeatedly?*
- a) The open/close actions only require that the Registry is active/inactive respectively, therefore allowing to open and close the Registry several times.
- b) A reason to allow this is if owner Users may want to close the Registry temporarily while they are adding more Requests, and then reopen it whenever they are done.
-.
+ 3.1 The open/close actions only require that the Registry is active/inactive respectively, therefore allowing to open and close the Registry several times.
+ 3.2 A reason to allow this is if owner Users may want to close the Registry temporarily while they are adding more Requests, and then reopen it whenever they are done.
+
  4. **Registry deletion**. *There is no action to delete a Registry. Would this matter in practice?*
- a) It could matter if an owner User doesn't want the Registry anymore, irregardless if it is open/closed.
- b) Potential storage implications for Registrys that can pile up and never be deleted.
-.
+ 4.1 It could matter if an owner User doesn't want the Registry anymore, irregardless if it is open/closed.
+ 4.2 Potential storage implications for Registrys that can pile up and never be deleted.
+
  5. **Queries**. *What are two common queries likely to be executed against the concept state?*
- a) Registry owner query: List of gifts already purchased.
- b) Giver of a gift query: List of remaining possible gifts and their associated counts.
-.
+ 5.1 Registry owner query: List of gifts already purchased.
+ 5.2 Giver of a gift query: List of remaining possible gifts and their associated counts.
+
  6. **Hiding purchases**. *How would you augment the concept specification to support Registry owner surprises?*
- a) Modify state to include "a surprise Flag" for each one of the Registrys.
- b) Add to set of Purchases that they're only visible to owner if "surprise Flag" is false.
- .
+ 6.1 Modify state to include "a surprise Flag" for each one of the Registrys.
+ 6.2 Add to set of Purchases that they're only visible to owner if "surprise Flag" is false.
+
  7. **Generic types**. *The User and Item types are specified as generic parameters. Why is this preferable?*
- a) Because defining *things* is complicated! I could want a boat, a dog, a house, or any random list of things in my Registry.
- b) It is better to reduce complexity of the GiftRegistration concept by having a different Item concept and passing it in.
+ 7.1 Because defining *things* is complicated! I could want a boat, a dog, a house, or any random list of things in my Registry.
+ 7.2 It is better to reduce complexity of the GiftRegistration concept by having a different Item concept and passing it in.
 
 ## 2. Excercise 2
 
