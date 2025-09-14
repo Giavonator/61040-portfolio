@@ -10,5 +10,8 @@ Some fun facts about me:
 3. I've lived in 20+ cities.
 
 # Table of Contents
+## Assignments
 [Link to Assignment 1](assignments/assignment1.md)
-[Link to Assignment 2](assignments/assignment2.md)
+
+## Problem Sets
+[Link to Problem Set 1](psets/pset1.md)
