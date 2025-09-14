@@ -29,20 +29,32 @@
  a) Because defining *things* is complicated! I could want a boat, a dog, a house, or any random list of things in my registry.
  b) It is better to reduce complexity of the GiftRegistration concept by having a different Item concept and passing it in.
 
-## 2. Excercse 2
+## 2. Excercise 2
 
-  **concept** PasswordAuthentication
-  **purpose** limit access to known users
-  **principle** after a user registers with a username and a password,
-    they can authenticate with that same username and password
-    and be treated each time as the same user
-  **state**
-    a set of Users with …
+**concept** PasswordAuthentication
+**purpose** limit access to known users
+**principle** after a user registers with a username and a password,
+they can authenticate with that same username and password
+and be treated each time as the same user
+**state**
+    a set of Users with
+        a confirmed Flag
+        a token String // via sync other concept emails token to User
+        a username String
+        a password String
   **actions**
-    register (username: String, password: String): (user: User)
-         s
+    register (username: String, password: String): (user: User, token: String)
+         **requires** no User exists with username
+         **effects** creates new User with confirmed set to false
     authenticate (username: String, password: String): (user: User)
-      …
+         **requires** User exists with that username and password
+         **effects** User is authenticated to access data stored in other concepts
+    confirm (username: String, token: String)
+         **requires** User exists with that username and hasn't been confirmed yet
+         **effects** User's confirmed flag set to true
+
+3. *What essential invariant must hold on the state? How is it preserved?*
+  To me, the most important invariant is that there should be NO duplicate username in the set of users. This is preserved within the register action, as it verifies no User already exists that username before registering the new User.
 
 
 
