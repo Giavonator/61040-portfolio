@@ -1,10 +1,8 @@
-# Template Portfolio
-
-This will be your portfolio repository. Use this as a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) and customize it to your own tastes. We gave you a starting point with a space to describe yourself and a link to where your assignment 1 file can be.
+# Giani Alvez 6.1040 Portfolio
 
 ## About Me
 
-My name is Giani Alvez, I'm a second year student taking course 6-3 at MIT. I'm excited to learn the cutting edge design process for software of the future! 
+My name is Giani Alvez, I'm a second year student in course 6-3 at MIT. I'm excited to learn the cutting edge design process for creating software of the future!
 
 Some fun facts about me:
 
@@ -19,4 +17,7 @@ Some fun facts about me:
 [Link to Assignment 1](assignments/assignment1.md)
 
 ### Problem Sets
+
 [Link to Problem Set 1](psets/pset1.md)
+
+[Link to Problem Set 2](psets/pset2.md)

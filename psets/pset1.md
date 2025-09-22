@@ -1,4 +1,4 @@
-# Assignment 1
+# Problem Set 1
 
 ## 1. Excercise 1
 
